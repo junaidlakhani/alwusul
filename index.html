@@ -1,51 +1,84 @@
-<style>
-  body {
-    font-family: 'Segoe UI', 'Inter', sans-serif;
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #ffffff;
-    color: #1a1a1a;
-  }
-  .container {
-    max-width: 600px;
-    margin: auto;
-    background: #f2f6fa;
-    padding: 30px;
-    border-radius: 14px;
-    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
-  }
-  img.logo {
-    max-width: 160px;
-    margin-bottom: 20px;
-  }
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #0b3d91;
-  }
-  p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  button {
-    background-color: #0b3d91;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-  }
-  button:hover {
-    background-color: #092d6b;
-  }
-  @media (max-width: 480px) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Al Wusul Parking Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+      background: linear-gradient(135deg, #0b3d91, #0b9d58);
+      color: #fff;
+    }
     .container {
-      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px 40px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      color: #1a1a1a;
+      text-align: left;
     }
     img.logo {
-      max-width: 120px;
+      display: block;
+      max-width: 160px;
+      margin: 0 auto 20px;
     }
-  }
-</style>
+    h1 {
+      font-size: 28px;
+      color: #0b3d91;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    p.description {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+      white-space: pre-line; /* preserves line breaks */
+    }
+    a button {
+      display: block;
+      margin: 0 auto;
+      background-color: #0b3d91;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    a button:hover {
+      background-color: #092d6b;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      img.logo {
+        max-width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="alwusullogo.jpg" alt="Al Wusul Logo" class="logo" />
+    <h1>Al Wusul Parking Solutions</h1>
+    <p class="description">
+      Al Wusul Parking Solutions brings cutting-edge smart parking and IoT innovations to Saudi Arabia, supporting the Kingdom’s Vision 2030 and smart city transformation.
+
+      Transform your parking assets into smart, revenue-analytics generating spaces with our commercial parking solutions delivering seamless, secure, and scalable systems tailored for offices, retail centres and mixed-use developments. From access control to occupancy monitoring and cashless payments, we empower property managers and businesses to optimize operations and enhance user experience all with cloud-based control.
+
+      Modernize your residential parking with a smart, secure, and hassle-free system built for apartment complexes and gated communities. We provide intelligent access control, resident and visitor management, and seamless integration with your building’s operations. Say goodbye to key cards, paper permits, and parking headaches and hello to convenience, control, and peace of mind through digital access.
+    </p>
+    <a href="Al Wusul Parking Solutions - Company Profile.pdf" download>
+      <button>Download Company Profile</button>
+    </a>
+  </div>
+</body>
+</html>
